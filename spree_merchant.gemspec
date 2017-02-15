@@ -1,18 +1,18 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'firstGem/version'
+require 'spree_merchant/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "firstGem"
-  spec.version       = FirstGem::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.name          = "spree_merchant"
+  spec.version       = SpreeMerchant::VERSION
+  spec.authors       = ["Manish Rai"]
+  spec.email         = ["manish.rai@w3villa.com"]
 
-  spec.summary       = %q{This is my First Gem. Let see how does it goes.}
+  spec.summary       = %q{complete module for merchant section}
   spec.description   = %q{This is my First Gem. Just Trying it out.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
-
+  spec.homepage      = ""
+  spec.license       = "MIT"
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
@@ -32,4 +32,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "sass-rails"
+  spec.add_development_dependency "slim-rails"
 end

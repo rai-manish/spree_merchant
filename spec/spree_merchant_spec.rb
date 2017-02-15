@@ -1,8 +1,8 @@
 require "spec_helper"
 
-describe FirstGem do
+describe SpreeMerchant do
   it "has a version number" do
-    expect(FirstGem::VERSION).not_to be nil
+    expect(SpreeMerchant::VERSION).not_to be nil
   end
 
   it "does something useful" do

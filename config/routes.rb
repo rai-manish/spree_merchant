@@ -1,4 +1,4 @@
-Spree::Core::Engine.routes.draw do
+SpreeMerchant.routes.draw do
 
 	 
   namespace :merchant do
